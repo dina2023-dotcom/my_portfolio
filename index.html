@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <meta name="description" content="Portfolio de Dina Kerrouche – Master en Ingénierie des Systèmes d’Information et Logiciels, passionnée par le développement web et les nouvelles technologies.">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">DK</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>      
+    </nav>
+
+    <section id="home" class="hero fade-in">
+        <div class="hero-content">
+            <h1>Hi, I'm Dina Kerrouche</h1>
+            <p>I’m a Master’s student specializing in Information Systems and Software Engineering, with a strong interest in web development, software design, and innovative technologies. My goal is to keep growing as a developer and to create impactful digital experiences.</p>
+            <a href="CV portfolio.pdf" class="cta-button" download>Download CV</a>
+        </div>  
+        <div class="hero-image">
+            <img src="img/mh.jpg" alt="Profile" class="profile-img">
+        </div>
+    </section>
+
+    <section class="skills fade-in" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS, JavaScript, WordPress</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>Backend & Database</h3>
+                <p>PHP, SQL, MySQL, C#</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Programming Languages</h3>
+                <p>Python, Java, C, VBA (Excel)</p>
+            </div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-brands fa-linux"></i>
+                <h3>Operating Systems</h3>
+                <p>Linux (Kali), Windows</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-lightbulb"></i>
+                <h3>Soft Skills</h3>
+                <p>Problem Solving, Teamwork, Adaptability, Organization</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>Tools & Software</h3>
+                <p>Figma, Canva, CapCut, Git & GitHub, Visual Studio Code, Eclipse, XAMPP, StarUML, Swing, Prolog, Android Studio</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects fade-in">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="img/project2.JPG" alt="VBA ODS Project">
+                <h3>Excel ODS Management Tool</h3>
+                <p>Developed during an internship at Algérie Telecom. It allows users to<span class="dots">...</span>
+                <span class="more-text" style="display:none;">easily add new companies, edit information, add contracts, and filter data for quick access. Improves efficiency and simplifies Excel for administrative tasks.<br><strong>Technologies used: Excel, VBA</strong></span>
+                <a href="#" class="see-more">See more</a></p>
+                <a href="https://github.com/dina2023-dotcom/VBA-ODS-Project" target="_blank" class="btn">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <img src="img/project3.JPG" alt="User Experience Survey">
+                <h3>User Experience Survey</h3>
+                <p>A responsive form designed to collect user feedback about their experience on a platform<span class="dots">...</span>
+                <span class="more-text" style="display:none;">Includes fields for name, email, age, country/region, satisfaction rating, ease of navigation, recommendation, and additional comments.<br><strong>Technologies used: HTML, CSS, JavaScript</strong></span>
+                <a href="#" class="see-more">See more</a></p>
+                <a href="https://dina-kerrouche-survey-form.vercel.app/" class="btn">View Live</a>
+            </div>
+            <div class="project-card">
+                <img src="img/project4.JPG" alt="ONAAPH Access">
+                <h3>ONAAPH Access</h3>
+                <p>Web application for people with disabilities to submit requests and book appointments<span class="dots">...</span>
+                <span class="more-text" style="display:none;">Track requests, manage personal info, automate workflows, and includes secure donor portal.<br><strong>Technologies used: HTML, CSS, JavaScript, PHP, MySQL, XAMPP, VS Code</strong></span>
+                <a href="#" class="see-more">See more</a></p>
+                <a href="https://github.com/dina2023-dotcom/PFE.git" target="_blank" class="btn">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <img src="img/project5.jpg" alt="BrainBoost Quiz">
+                <h3>BrainBoost Quiz</h3>
+                <p>Android quiz app with timer-based questions to test knowledge<span class="dots">...</span>
+                <span class="more-text" style="display:none;">Includes welcome screen, “Start Quiz” button, and 11-second timer per question.<br><strong>Technologies / Tools: JAVA, Android Studio</strong></span>
+                <a href="#" class="see-more">See more</a></p>
+                <a href="https://github.com/dina2023-dotcom/BrainBoost_Quiz" class="btn">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates fade-in">
+        <h2>My Certificates</h2>
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <img src="img/cert1.JPG" alt="Certificate 1">
+                <h3>Introduction to Microsoft Excel</h3>
+                <p>Gained practical skills in Excel for data management and analysis, including formulas, data entry, and spreadsheet organization.</p>
+                <a href="https://coursera.org/verify/SK9HB5PRLKCG" target="_blank" class="btn">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="img/cert2.JPG" alt="Certificate 2">
+                <h3>Create a Free Website with WordPress</h3>
+                <p>Learned to design and customize a free WordPress website by creating pages, managing content, and personalizing layouts for professional use.</p>
+                <a href="https://coursera.org/verify/KY6BWPE8UYZE" target="_blank" class="btn">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="img/cert3.JPG" alt="Certificate 3">
+                <h3>Responsive Web Design Certification — freeCodeCamp</h3>
+                <p>Completed a 300-hour developer certification covering HTML, CSS, and responsive design by building real-world web projects and passing all automated tests.</p>
+                <a href="https://www.freecodecamp.org/certification/dinakerrouche/responsive-web-design" target="_blank" class="btn">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="img/cert4.JPG" alt="Certificate 4">
+                <h3>Foundational C# with Microsoft Certification — freeCodeCamp</h3>
+                <p>Earned the Microsoft-endorsed certification by mastering C# fundamentals, object-oriented programming, and problem-solving through interactive coding challenges.</p>
+                <a href="https://www.freecodecamp.org/certification/dinakerrouche/foundational-c-sharp-with-microsoft" target="_blank" class="btn">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact fade-in">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Have a message for me?</h2>
+                <p>You can send it by filling this form or reach me via:</p>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>dinakerrouche3@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>www.linkedin.com/in/dina-kerrouche</span>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-github"></i>
+                    <span>github.com/dina2023-dotcom</span>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-instagram"></i>
+                    <span>instagram.com/dina_kerrouche</span>
+                </div>
+            </div>
+
+           <div class="contact-form">
+    <form action="https://formspree.io/f/xovpnyle" method="POST">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here." required></textarea>
+
+        <button type="submit" class="btn-send">Send</button>
+    </form>
+</div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dina K. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/dina2023-dotcom" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="www.linkedin.com/in/dina-kerrouche" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a> 
+            <a href="instagram.com/dina_kerrouche" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
